@@ -24247,8 +24247,8 @@ pre .code {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
-  background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(173, 216, 230, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+  background-image: linear-gradient(to top, #fff 0%, rgba(173, 216, 230, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
 }
 
 .header .header-content {
@@ -24374,3 +24374,35 @@ pre .code {
   .about-img-holder {
     max-width: 220px;
     min-width: 100%;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* sections */
+.section {
+  padding: 70px 10px;
+}
+
+.section .section-title {
+  font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
+}
+
+.section .section-subtitle {
+  margin-bottom: 6px;
+  font-weight: 400;
+  opacity: .6;
+}
+
+.section-sm {
+  padding: 40px 0 !important;
+}
+
+.section-md {
+  padding: 60px 0 !important;
+}
+
+.section-lg {
+  padding: 100px 0 !important;
+}
