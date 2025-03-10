@@ -1,5 +1,17 @@
 @charset "UTF-8";
+ /*!
+=========================================================
+* Meyawo Landing page
+=========================================================
 
+* Copyright: 2019 DevCRUD (https://devcrud.com)
+* Licensed: (https://devcrud.com/licenses)
+* Coded by www.devcrud.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
 @import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
 :root {
   --blue: #1e549f;
@@ -58,9 +70,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-
-
-
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
@@ -12222,7 +12232,7 @@ pre .code {
 .section-lg {
   padding: 100px 0 !important;
 }
-}
+
 
 
 .dark-mode {
@@ -12235,7 +12245,7 @@ pre .code {
   
   text-align: left;
   background-color: gray;
-  
+}
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -24364,36 +24374,3 @@ pre .code {
   .about-img-holder {
     max-width: 220px;
     min-width: 100%;
-    width: 100%;
-    margin: auto;
-    margin-bottom: 20px;
-  }
-}
-
-/* sections */
-.section {
-  padding: 70px 10px;
-}
-
-.section .section-title {
-  font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
-}
-
-.section .section-subtitle {
-  margin-bottom: 6px;
-  font-weight: 400;
-  opacity: .6;
-}
-
-.section-sm {
-  padding: 40px 0 !important;
-}
-
-.section-md {
-  padding: 60px 0 !important;
-}
-
-.section-lg {
-  padding: 100px 0 !important;
-}
-}
