@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="assets/css/meyawo.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="light-mode">
 
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="logo" href="#">Meyawo</a>
+            <a class="logo" href="#">Ruth's Portfolio</a>
             <ul class="nav">
                 <li class="item">
                     <a class="link" href="#home">Home</a>
@@ -27,20 +27,23 @@
                     <a class="link" href="#about">About</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#portfolio">Portfolio</a>
+                    <a class="link" href="#work">What I can do</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#testmonial">Testmonial</a>
+                    <a class="link" href="#education">Education</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#blog">Blog</a>
+                    <a class="link" href="#Skills">Skills</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Projects</a>
                 </li>
                 <li class="item">
                     <a class="link" href="#contact">Contact</a>
                 </li>
-                <li class="item ml-md-3">
-                    <a href="components.html" class="btn btn-primary">Components</a>
+                <li class="item"><a class="toggle-button" onclick="toggleMode()"><img src="light.png"alt="Light" id="toggle-icon">
                 </li>
+
             </ul>
             <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
                 <div class="hamburger-box">
@@ -56,11 +59,10 @@
         <div class="header-content container">
             <h1 class="header-title">
                 <span class="up">HI!</span>
-                <span class="down">I am John Doe</span>
+                <span class="down">I am Ruth Massock</span>
             </h1>
-            <p class="header-subtitle">FRONTEND WEB DESIGNER</p>
-
-            <button class="btn btn-primary">Visit My Works</button>
+            <p class="header-subtitle">COMPUTER ENGINEERING STUDENT</p>
+            <p><a href=#blog class="btn btn-primary" >View My Projects</a></p>
         </div>
     </header><!-- end of page header -->
 
@@ -70,126 +72,183 @@
         <div class="container text-center">
             <!-- about wrapper -->
             <div class="about">
-                <div class="about-img-holder">
-                    <img src="assets/imgs/man.png" class="about-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
+               
                 <div class="about-caption">
                     <p class="section-subtitle">Who Am I ?</p>
                     <h2 class="section-title mb-3">About Me</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid ad provident aut
-                        fuga animi soluta quae eos non cupiditate voluptates dolorem, doloremque quos dicta quibusdam
-                        impedit iure nemo a iste
-                        <br>culpa! Quasi quibusdam hic recusandae delectus velit officiis explicabo voluptatibus! Nemo
-                        esse similique, voluptates labore distinctio, placeat explicabo facilis molestias, blanditiis
-                        culpa iusto voluptatem ratione eligendi a, quia temporibus velit vero ipsa sint ex voluptatum
-                        expedita aliquid! Debitis, nam!
-                    </p>
-                    <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+                        I’m a computer engineer passionate about building innovative embedded systems, designing efficient software, and crafting seamless digital experiences. My work bridges hardware and software development, allowing me to create high-performance, reliable, and scalable solutions across various domains, from embedded programming and cybersecurity to data science and web development.  
+
+Currently, I’m pursuing a Bachelor of Science in Computer Engineering at Florida State University, minoring in Computer Science, with a strong focus on embedded systems, computer architecture, and artificial intelligence. I’ve worked on projects involving joystick-controlled stepper motors, VGA controllers for FPGA boards, and real-time client-server communication systems, applying both low-level programming and high-level software engineering principles.  
+
+In the past, I’ve contributed to STEM education as a tutor, helping students strengthen their understanding of programming, data structures, algorithms, and digital logic design. I’m also actively involved in IEEE, DevLUp at FSU, and FGLSAMP, where I engage in hackathons, research, and mentorship programs to expand my technical expertise and collaborate with like-minded peers.  
+
+In my free time, you’ll find me exploring new programming languages, diving into cybersecurity challenges, refining my hardware design skills, or enjoying anime and Korean dramas.</p>
+                    <button class="btn-rounded btn btn-outline-primary mt-1"><a href="RUTH MASSOCK Resume CPE.pdf" target="_blank">Download Resume</a></button>
+                    <button class="btn-rounded btn btn-outline-primary mt-1"><a href="FSU Ruth Massock transcript .pdf" target="_blank">Download Transcript</a></button>
                 </div>
             </div><!-- end of about wrapper -->
         </div><!-- end of container -->
     </section> <!-- end of about section -->
 
     <!-- service section -->
-    <section class="section" id="service">
+    <section class="section" id="work">
         <div class="container text-center">
             <p class="section-subtitle">What I Do ?</p>
-            <h6 class="section-title mb-6">Service</h6>
+            <h6 class="section-title mb-6">Work</h6>
             <!-- row -->
             <div class="row">
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/pencil-case.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                            <img src="icons8-motherboard-50.png"
+                                  
                                 class="icon">
-                            <h6 class="title">Adipisicing</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                molestias dolorem iste quod.</p>
+                            <h6 class="title">Embedded Software</h6>
+                            <p class="subtitle">Develop and program microcontrollers for real-time and embedded systems.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/responsive.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                            <img src="icons8-software-development-50.png"
+                                  
                                 class="icon">
-                            <h6 class="title">Sapiente</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                molestias dolorem iste quod.</p>
+                            <h6 class="title">Software Development</h6>
+                            <p class="subtitle">Design and implement software applications using multiple programming languages.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/toolbox.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                            <img src="icons8-hardware-50.png"
+                                  
                                 class="icon">
-                            <h6 class="title">Placeat</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                molestias dolorem iste quod.</p>
+                            <h6 class="title">Hardware Development</h6>
+                            <p class="subtitle">Build and test digital and embedded hardware systems.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/analytics.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                            <img src="icons8-technical-writing-68.png"
+                                  
                                 class="icon">
-                            <h6 class="title">Iusto</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                molestias dolorem iste quod.</p>
+                            <h6 class="title">Technical Writting</h6>
+                            <p class="subtitle">Create clear and precise documentation for technical projects and research.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>  
+                  <div class="row">           
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="icons8-html-48.png"
+                                  
+                                class="icon">
+                            <h6 class="title">Web Development</h6>
+                            <p class="subtitle">Develop interactive and responsive websites using HTML, CSS, and JavaScript.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div><!-- end of row -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="image.png"
+                                  
+                                class="icon">
+                            <h6 class="title">Data Science</h6>
+                            <p class="subtitle">Analyze and interpret data to extract meaningful insights and improve decision-making.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="icons8-networking-manager-50.png"
+                                  
+                                class="icon">
+                            <h6 class="title">Networking</h6>
+                            <p class="subtitle">Configure, troubleshoot, and optimize computer network systems.</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="icons8-cyber-security-80.png"
+                                  
+                                class="icon">
+                            <h6 class="title">Cyber Security</h6>
+                            <p class="subtitle"> Implement security measures to protect systems and data from cyber threats.</p>
+                        </div>
+                    </div>
+                </div>                            
+                </div>
+            <!-- end of row -->
         </div>
     </section><!-- end of service section -->
 
     <!-- portfolio section -->
-    <section class="section" id="portfolio">
+    <section class="section" id="education">
         <div class="container text-center">
-            <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
+            <p class="section-subtitle">Schools?</p>
+            <h6 class="section-title mb-6">Education</h6>
             <!-- row -->
             <div class="row">
-                <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.fsu.edu/" class="portfolio-card"target="_blank">
+                        <img src="fsu.jpeg" class="portfolio-card-img"
+                              >
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
+                                <h4>Florida State University</h5>
+                                    <p class="font-weight-normal">Tallahasse, FL</p>
+                                    <p class="font-weight-normal">2024 - 2026</p>
                             </span>
                         </span>
                     </a>
                 </div>
-                <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-2.jpg" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.tsc.fl.edu/" class="portfolio-card" target="_blank">
+                        <img class="portfolio-card-img" src="tsc.jpeg" class="img-responsive rounded"
+                              >
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
+                                <h4>Tallahasse State College</h5>
+                                    <p class="font-weight-normal">Tallahasse, FL</p>
+                                    <p class="font-weight-normal">2023</p>
                             </span>
                         </span>
                     </a>
                 </div>
-                <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://valenciacollege.edu/" class="portfolio-card" target="_blank">
+                        <img class="portfolio-card-img" src="valencia.png" class="img-responsive rounded"
+                              >
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
+                                <h4>Valencia College</h5>
+                                    <p class="font-weight-normal">Orlando, FL</p>
+                                    <p class="font-weight-normal">2022</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://en.wikipedia.org/wiki/University_of_Douala" class="portfolio-card" target="_blank">
+                        <img class="portfolio-card-img" src="doulauni.jpg" class="img-responsive rounded"
+                              >
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>University of Douala</h5>
+                                    <p class="font-weight-normal">Douala, Cameroon</p>
+                                    <p class="font-weight-normal">2020 - 2022</p>
                             </span>
                         </span>
                     </a>
@@ -198,211 +257,185 @@
         </div><!-- end of container -->
     </section> <!-- end of portfolio section -->
 
-    <!-- pricing section -->
-    <section class="section" id="pricing">
+
+       <!-- Skills Section -->
+    <!-- portfolio section -->
+    <section class="section" id="Skills">
         <div class="container text-center">
-            <p class="section-subtitle">How Much I Charge ?</p>
-            <h6 class="section-title mb-6">My Pricing</h6>
-            <!-- row -->
-            <div class="pricing-wrapper">
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/scooter.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Free</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p><i class="ti-close"></i></p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>0.00/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/shipped.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Basic</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>9.99/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/startup.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Premium</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p>inventore omnis</p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>99.9/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-
-            </div><!-- end of pricing wrapper -->
-        </div> <!-- end of container -->
-    </section><!-- end of pricing section -->
-
-    <!-- section -->
-    <section class="section-sm bg-primary">
-        <!-- container -->
-        <div class="container text-center text-sm-left">
-            <!-- row -->
-            <div class="row align-items-center">
-                <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Want to work with me?</h6>
-                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
-                </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                    <button class="btn btn-lg my-font btn-light rounded">Hire Me</button>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of section -->
-
-    <!-- testimonial section -->
-    <section class="section" id="testmonial">
-        <div class="container text-center">
-            <p class="section-subtitle">What Think Client About Me ?</p>
-            <h6 class="section-title mb-6">Testmonial</h6>
-
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar2.jpg" class="testimonial-card-img"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis
-                                adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar3.jpg" class="testimonial-card-img"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis
-                                adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end of container -->
-    </section> <!-- end of testimonial section -->
+            <p class="section-subtitle">What I can do ?</p>
+            <h6 class="section-title mb-6">Skills</h6>
+            
+            <section>
+                <!-- Programming Languages -->
+                <span class="btn-rounded btn btn-outline-primary mt-1">C</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">C++</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">C#</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Java</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Pascal</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Python</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">MATLAB</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">VHDL</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Verilog</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">JavaScript</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">ARM</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">LEGV8</span>
+            
+                <!-- Operating Systems -->
+                <span class="btn-rounded btn btn-outline-primary mt-1">Windows</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Unix</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Linux</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">MacOS</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Raspberry Pi OS</span>
+            
+                <!-- Software & Tools -->
+                <span class="btn-rounded btn btn-outline-primary mt-1">Visual Studio</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Multisim</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Questa</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">CCS</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">GitHub</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Microsoft Office Suite</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Git</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Quartus</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">Logisim</span>
+            
+                <!-- Web Development -->
+                <span class="btn-rounded btn btn-outline-primary mt-1">HTML</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">CSS</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">JavaScript</span>
+                <span class="btn-rounded btn btn-outline-primary mt-1">HTML5</span>
+            
+                <!-- Certifications -->
+                <span class="btn-rounded btn btn-outline-primary mt-1">Google IT Support Certification</span>
+            </section>
+            
+            
+        </div>
+    </section>
 
     <!-- blog section -->
     <section class="section" id="blog">
         <!-- container -->
         <div class="container text-center">
-            <p class="section-subtitle">Recent Posts?</p>
-            <h6 class="section-title mb-6">Blog</h6>
+            <p class="section-subtitle">Recent Projects?</p>
+            <h6 class="section-title mb-6">Projects</h6>
             <!-- blog-wrapper -->
             <div class="blog-card">
                 <div class="blog-card-header">
-                    <img src="assets/imgs/img-1.jpg" class="blog-card-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    <img src="assets/imgs/micro.png" class="blog-card-img"
+                        alt="Joystick-Controlled Stepper Motor Project">
                 </div>
                 <div class="blog-card-body">
-                    <h5 class="blog-card-title">Consectetur adipisicing elit</h6>
+                    <h5 class="blog-card-title">Embedded System Project: Joystick-Controlled Stepper Motor</h5>
 
                         <p class="blog-card-caption">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                            <a href="#"><i class="ti-comment"></i> 123</a>
+                            <a href="#">By: Ruth Massock</a>
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit
-                            delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium
-                            neque numquam mollitia modi quasi distinctio.</p>
 
-                        <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b>
-                        </p>
-                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis
-                            cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
-
-                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                        <p>Designed and implemented a motor controller using the MSP430 Launchpad and Booster Pack MKII.
+                           Developed a joystick-based interface for precise directional and speed control of the stepper motor.
+                           Integrated debugging functionality to monitor and optimize motor performance in real time.</p>
+                        <p><a href="Group 4 EEL-4746 Lab Project.pdf" class="btn-rounded btn btn-outline-primary mt-1" target="_blank">Lab Report</a>
+                                <a href="IMG_2152.mp4" class="btn-rounded btn btn-outline-primary mt-1" target="_blank" type="video/mp4">Demo Video</a>
                 </div>
             </div><!-- end of blog wrapper -->
 
             <!-- blog-wrapper -->
             <div class="blog-card">
                 <div class="blog-card-header">
-                    <img src="assets/imgs/img-2.jpg" class="blog-card-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    <img src="assets/imgs/socket.png" class="blog-card-img"
+                        alt="Socket Programming Project">
                 </div>
                 <div class="blog-card-body">
-                    <h5 class="blog-card-title">Explicabo illo</h6>
+                    <h5 class="blog-card-title">Socket Programming: Two-Way Client-Server Communication</h5>
 
                         <p class="blog-card-caption">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
-                            <a href="#"><i class="ti-comment"></i> 264</a>
+                            <a href="#">By: Ruth Massock</a>
                         </p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim,
-                            vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro
-                            quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto
-                            omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae?
-                            Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non
-                            dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus
-                            eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
-
-                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                        <p>Developed a real-time client-server communication system using socket programming in C.
+                           Implemented bidirectional messaging for seamless data exchange between server and client applications.
+                           Optimized system efficiency and reliability using non-blocking I/O and multi-threading techniques.</p>
+                        <p><a href="Ruth Massock EEL 4781 ProjectII.pdf" class="btn-rounded btn btn-outline-primary mt-1" target="_blank">Lab Report</a>
                 </div>
             </div><!-- end of blog wrapper -->
 
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/vga.png" class="blog-card-img"
+                          >
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Video Graphics Array (VGA) Controller</h6>
+
+                        <p class="blog-card-caption">
+                            <a href="#">By: Ruth Massock</a>
+
+                        </p>
+
+                                        <p>Developed a VGA controller for the DE-1 FPGA board, displaying dynamic colors on a monitor.
+                 Designed and implemented logic to generate video signals and control screen resolution.
+                    Integrated a 7-segment HEX display to process and visualize user inputs in real time.</p>
+                  <p><a href="Ruth Massock Lab Project Report  - EEL 4710L-2024-Fall.pdf" class="btn-rounded btn btn-outline-primary mt-1" float="left" target="_blank">Lab Report</a>
+                    <a href="VGA.mp4" class="btn-rounded btn btn-outline-primary mt-1" target="_blank" type="video/mp4">Demo Video</a>
+
+                </div>
+            </div><!-- end of blog wrapper -->
+
+
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/Calcultor.png" class="blog-card-img"
+                        alt="Calculator Project">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Calculator Project</h5>
+
+                        <p class="blog-card-caption">
+                            <a href="#">By: Ruth Massock</a>
+                        </p>
+
+                        <p>Built a simple calculator using HTML, CSS, and JavaScript.
+                           User-friendly interface with clickable buttons.
+                           Real-time display updates as buttons are pressed.</p>
+                        <p><a href="calculator.html" class="btn-rounded btn btn-outline-primary mt-1" target="_blank">View Project</a></p>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/numbers.png" class="blog-card-img"
+                        alt="Numbers to Words Converter">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Numbers to Words Converter</h5>
+
+                        <p class="blog-card-caption">
+                            <a href="#">By: Ruth Massock</a>
+                        </p>
+
+                        <p>Developed a program to convert numerical values to words.
+                           Supports conversion of both small and large numbers.
+                           User-friendly interface for easy input and output.</p>
+                        <p><a href="numbertoword.html" class="btn-rounded btn btn-outline-primary mt-1">View Project</a></p>
+                </div>
+            </div><!-- end of blog wrapper -->
         </div><!-- end of container -->
     </section><!-- end of blog section -->
+    
+</section>
+
+
 
     <!-- contact section -->
     <section class="section" id="contact">
         <div class="container text-center">
-            <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
+            <h2>Get in touch</h2>
+        <p>Feel free to reach out! Whether you have a question, a project idea, or just want to connect, I'd love to hear from you. Drop me a message, and I’ll get back to you as soon as I can!</p>
             <!-- contact form -->
-            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+            <form action="mailto:massockruth36@gmail.com" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
                     <div class="form-group col-sm-6">
                         <input type="text" size="50" class="form-control" placeholder="Your Name" required>
@@ -419,24 +452,22 @@
                     </div>
                 </div>
             </form><!-- end of contact form -->
-        </div><!-- end of container -->
+        </div><!-- end of container -->    
     </section><!-- end of contact section -->
+    
 
     <!-- footer -->
     <div class="container">
         <footer class="footer">
             <p class="mb-0">Copyright
                 <script>document.write(new Date().getFullYear())</script> &copy; <a
-                    href="http://www.devcrud.com">DevCRUD</a> Distribution <a
-                    href="https://themewagon.com">ThemeWagon</a>
+                    href="http://www.devcrud.com">Ruth</a> Massock 
             </p>
             <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+
+                <a href="https://github.com/Massockruth" i class="ti-github"></i></a>
+                <a href="https://www.instagram.com/massockruth?igsh=MTF0ODVhNHkyMnQ4aA%3D%3D&utm_source=qr" i class="ti-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ruthmassock/" i class="ti-linkedin"></i></a>
             </div>
         </footer>
     </div> <!-- end of page footer -->
@@ -454,3 +485,4 @@
 </body>
 
 </html>
+
